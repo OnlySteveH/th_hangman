@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63e12dde-3dc1-4f38-b0f5-81fa6647ee1f" name="Default" comment="Building a functioning Hangman game - nearly there!">
+    <list default="true" id="63e12dde-3dc1-4f38-b0f5-81fa6647ee1f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/TH_Hangman/com/company/Game$Hangman.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TH_Hangman/com/company/Game.class" afterPath="$PROJECT_DIR$/out/production/TH_Hangman/com/company/Game.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TH_Hangman/com/company/Hangman.class" afterPath="$PROJECT_DIR$/out/production/TH_Hangman/com/company/Hangman.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TH_Hangman/com/company/Prompter.class" afterPath="$PROJECT_DIR$/out/production/TH_Hangman/com/company/Prompter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Game.java" afterPath="$PROJECT_DIR$/src/com/company/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Hangman.java" afterPath="$PROJECT_DIR$/src/com/company/Hangman.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Prompter.java" afterPath="$PROJECT_DIR$/src/com/company/Prompter.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -202,6 +203,14 @@
       <option name="presentableId" value="Default" />
       <updated>1506080197379</updated>
     </task>
+    <task id="LOCAL-00001" summary="Building a functioning Hangman game - nearly there!">
+      <created>1506500204371</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1506500204372</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
