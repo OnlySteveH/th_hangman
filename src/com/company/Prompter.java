@@ -10,11 +10,17 @@ class Prompter {
         this.game = game;
     }
 
-    public boolean promptForGuess() {
+    public int promptForGuess() {
+        char guess = '\0';
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a letter:  ");
-        String guessInput = scanner.nextLine();
-        char guess = guessInput.charAt(0);
+        System.out.printf("Enter a letter:  %n%n");
+        String guessInput = scanner.nextLine().toLowerCase();
+        try {
+            guess = guessInput.charAt(0);
+        } catch (Exception exc){
+            System.out.printf("Something went wrong - try again! ... %n");
+            promptForGuess();
+        }
         return game.applyGuess(guess);
     }
 }
